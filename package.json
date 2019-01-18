@@ -2,14 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Some change to check if its working",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "10.15.0",
     "npm": "6.5.0"
   },
   "scripts": {
     "test": "make test",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
