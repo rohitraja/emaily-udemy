@@ -8,6 +8,7 @@
     "npm": "6.5.0"
   },
   "scripts": {
+    "test": "make test",
     "start": "node index.js"
   },
   "author": "",
