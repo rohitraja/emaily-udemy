@@ -32,7 +32,7 @@ require("./routes/billingRoutes")(app); // midnd the syntex of writing code so a
 if (process.env.NODE_ENV === "production") {
   //Express will serve our production accets
   // like our main.js and main.css file
-  app.use(exress.static("client/build"));
+  app.use(express.static("client/build"));
 
   //Express will serve index.html file
   //if it dosnot recoganize the routes
