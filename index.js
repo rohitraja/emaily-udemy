@@ -5,6 +5,7 @@ const passport = require("passport");
 const keys = require("./config/keys");
 const bodyParser = require("body-parser");
 require("./models/User");
+require("./models/Surveys");
 require("./services/passport");
 
 const app = express();
@@ -26,6 +27,7 @@ mongoose.connect(keys.mongoURI);
 
 require("./routes/authRoutes")(app);
 require("./routes/billingRoutes")(app); // midnd the syntex of writing code so after the route is required it imidiatly called by app object
+require("./routes/surveyRoutes")(app);
 
 //if it is a production invironment
 //check for chapter 112
