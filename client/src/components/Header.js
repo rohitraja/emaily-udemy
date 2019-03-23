@@ -29,7 +29,7 @@ class Header extends Component {
     }
   }
   render() {
-    console.log(this.props);
+    // console.log("This is the props ", this.props);
     return (
       <nav>
         <div className="nav-wrapper">

@@ -20,5 +20,5 @@ ReactDom.render(
   document.querySelector("#root")
 );
 
-console.log("Stripe Public key: ", process.env.REACT_APP_STRIPE_KEY);
-console.log("Environment: ", process.env.NODE_ENV);
+// console.log("Stripe Public key: ", process.env.REACT_APP_STRIPE_KEY);
+// console.log("Environment: ", process.env.NODE_ENV);
