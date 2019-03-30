@@ -74,6 +74,9 @@ module.exports = app => {
       const user = await req.user.save();
       res.send(user);
     } catch (err) {
+      // if you are getting error here, may be its you url stting in sendgrid local vs heroku
+      //url for setting ----. https://rohitrandom.serveo.net/api/surveys/webhooks
+      //
       console.log("[Error: ]", err);
       res.status(422).send(err);
     }
